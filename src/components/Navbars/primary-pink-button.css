@@ -1,0 +1,25 @@
+.primary-pink-button-container {
+  display: flex;
+  position: relative;
+  padding: 10px;
+}
+.primary-pink-button-button {
+  color: #8777E0;
+  outline: none;
+  border: none;
+  background-color: white;
+  
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+ 
+  font-size: 13px;
+}
+.primary-pink-button-button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
